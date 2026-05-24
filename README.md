@@ -41,7 +41,7 @@
 
 ## 🔑 𝐆𝐄𝐓 𝐏𝐀𝐈𝐑  
 <p align="center">  
-  <a href="https://sarwar-md-c17aa896e84b.herokuapp.com/">  
+  <a href="https://sarwarmd-bf85866a3699.herokuapp.com/">  
     <img src="https://img.shields.io/badge/Get-PAIR_CODE-00BFFF?style=for-the-badge&logo=whatsapp&logoColor=white" width="190" />  
   </a>  
 </p>  
