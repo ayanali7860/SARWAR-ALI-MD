@@ -1,15 +1,18 @@
-FROM node:lts-buster
-
-RUN git clone https://github.com/Adeel-Xtech/ADEEL-MD.git /root/adeel-bot
-
-WORKDIR /root/adeel-bot
+FROM node:20-bullseye-slim
 
 RUN apt-get update && \
-    apt-get install -y ffmpeg imagemagick webp && \
+    apt-get install -y git ffmpeg imagemagick webp python3 make g++ && \
     rm -rf /var/lib/apt/lists/*
 
-RUN npm install && npm install -g pm2
+WORKDIR /app
 
-EXPOSE 9090
+COPY package.json ./
 
-CMD ["npm", "start"]
+RUN npm install --legacy-peer-deps
+
+COPY . .
+
+ENV PORT=8000
+EXPOSE 8000
+
+CMD ["node", "index.js"]
