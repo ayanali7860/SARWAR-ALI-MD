@@ -4,9 +4,9 @@
   "description": "A WhatsApp Bot Created By SARWAR-MD",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name SARWAR-MD",
-    "stop": "pm2 stop SARWAR-MD",
-    "restart": "pm2 restart SARWAR-MD"
+    "start": "node index.js",
+    "stop": "echo stopped",
+    "restart": "node index.js"
   },
   "engines": {
     "node": ">=20.x",
@@ -20,7 +20,6 @@
     "@vitalets/google-translate-api": "^9.2.0",
     "@dark-yasiya/scrap": "1.0.1",
     "pino": "^7.0.5",
-    "pm2": "^6.0.5",
     "util": "^0.12.4",
     "express": "latest",
     "moment-timezone": "^0.5.45",
