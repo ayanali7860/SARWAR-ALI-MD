@@ -1,24 +1,15 @@
-FROM node:20-bullseye-slim
+FROM node:lts-buster
 
-RUN apt-get update --fix-missing && \
-    apt-get install -y --no-install-recommends \
-    git ffmpeg imagemagick webp curl ca-certificates \
-    python3 make g++ sqlite3 libsqlite3-dev && \
+RUN git clone https://github.com/ayanali7860/SARWAR-ALI-MD.git /root/sarwar-bot
+
+WORKDIR /root/sarwar-bot
+
+RUN apt-get update && \
+    apt-get install -y ffmpeg imagemagick webp && \
     rm -rf /var/lib/apt/lists/*
 
-RUN git config --global url."https://".insteadOf ssh:// && \
-    git config --global http.sslVerify false && \
-    npm config set strict-ssl false
+RUN npm install && npm install -g pm2
 
-WORKDIR /app
+EXPOSE 9090
 
-COPY package.json ./
-RUN npm install --legacy-peer-deps
-
-COPY . .
-
-RUN mkdir -p session
-
-EXPOSE 8000
-
-CMD ["node", "index.js"]
+CMD ["npm", "start"]
