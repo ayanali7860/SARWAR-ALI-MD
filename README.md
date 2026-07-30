@@ -72,7 +72,7 @@
   <a href="https://whatsapp.com/channel/0029Vb6qeR8HVvTbWqv2hh1y">  
     <img src="https://img.shields.io/badge/Join-Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />  
   </a>  
-  <a href="https://api.whatsapp.com/send?phone=+923005448162&text=➪𝐇𝐄𝐘𓆩🐍🍷🌹'">  
+  <a href="https://api.whatsapp.com/send?phone=+923242895504&text=➪𝐇𝐄𝐘𓆩🐍🍷🌹'">  
     <img src="https://img.shields.io/badge/Contact-Owner-ff0000?style=for-the-badge&logo=whatsapp&logoColor=white" />  
   </a>  
 </p>  
