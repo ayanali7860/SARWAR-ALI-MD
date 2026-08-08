@@ -70,7 +70,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY ADEEL-MD 🖤*"
+      "value": "*SEEN YOUR STATUS BY SARWAR-MD 🖤*"
     }, 
     
     "OWNER_NAME": {
@@ -82,7 +82,7 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "923005448162"
+      "value": "923242895504"
     }, 
 
     "BOT_NAME": {
