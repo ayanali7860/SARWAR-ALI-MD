@@ -41,7 +41,7 @@
 
 ## 🔑 𝐆𝐄𝐓 𝐏𝐀𝐈𝐑  
 <p align="center">  
-  <a href="https://sarwar-md-pair-production.up.railway.app/">  
+  <a href="https://sarwar-md-pair-production-761e.up.railway.app/">  
     <img src="https://img.shields.io/badge/Get-PAIR_CODE-00BFFF?style=for-the-badge&logo=whatsapp&logoColor=white" width="190" />  
   </a>  
 </p>  
